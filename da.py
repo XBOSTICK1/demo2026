@@ -15,3 +15,5 @@ os.system('firewall-cmd --permanent --zone=trusted --add-interface=ens34')
 os.system('firewall-cmd --permanent --zone=trusted --add-interface=ens35')
 os.system('firewall-cmd --permanent --zone=public --add-masquerade')
 os.system('firewall-cmd --complete-reload')
+
+os.system('systemctl restart network')
