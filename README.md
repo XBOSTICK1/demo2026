@@ -306,6 +306,8 @@ useradd -m -u 2026 net_admin
 passwd sshuser
 Пароль: P@ssw0rd
 ```
+Либо другой метод https://github.com/meowehh/DemoExam_2026/blob/main/Module_1.md#%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-3
+
 ## Задание 4. Настройка VLAN на HQ-RTR (VLAN 100, 200, 999)
 Сперва выдаем IP-адреса для HQ-SRV (На HQ-CLI будет DHCP)
 Создаем каталог для под интерфейса:
