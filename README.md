@@ -289,6 +289,23 @@ whoami
 ```
 
 ПОВТОРЯЕМ ТОЖЕ САМОЕ В BR-SRV!!
+
+### Создание пользователей в HQ-RTR и BR-RTR
+
+### HQ-RTR
+
+```
+useradd -m -u 2026 net_admin
+passwd sshuser
+Пароль: P@ssw0rd
+```
+### BR-RTR
+
+```
+useradd -m -u 2026 net_admin
+passwd sshuser
+Пароль: P@ssw0rd
+```
 ## Задание 4. Настройка VLAN на HQ-RTR (VLAN 100, 200, 999)
 Сперва выдаем IP-адреса для HQ-SRV (На HQ-CLI будет DHCP)
 Создаем каталог для под интерфейса:
